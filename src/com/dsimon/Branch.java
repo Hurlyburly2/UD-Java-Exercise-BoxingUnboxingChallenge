@@ -12,8 +12,8 @@ public class Branch {
     }
 
     public boolean newCustomer(String name, double initialTransaction) {
-        int customerIndex = findCustomer(name);
-        if (customerIndex == -1) {
+        Customer foundCustomer = findCustomer(name);
+        if (foundCustomer == null) {
             customers.add(new Customer(name, initialTransaction));
             if (initialTransaction < 0) {
                 System.out.println("Initial transaction cannot be less than zero, balance set to zero.");
@@ -25,12 +25,12 @@ public class Branch {
     }
 
     public boolean makeTransaction(String customerName, double amount) {
-        int customerIndex = findCustomer(customerName);
-        if (customerIndex == -1) {
+        Customer foundCustomer = findCustomer(customerName);
+        if (foundCustomer == null) {
             System.out.println("Customer does not exist at that branch");
             return false;
         } else {
-            boolean wasTransactionSuccessful = customers.get(customerIndex).newTransaction(amount);
+            boolean wasTransactionSuccessful = foundCustomer.newTransaction(amount);
             if (!wasTransactionSuccessful) {
                 System.out.println("You cannot make a subtraction larger than your balance.");
             }
@@ -46,14 +46,12 @@ public class Branch {
         return customers;
     }
 
-    private int findCustomer(String name) {
-        int customerIndex = -1;
+    private Customer findCustomer(String name) {
         for (int i = 0; i < customers.size(); i++) {
             if (customers.get(i).getName().equals(name)) {
-                customerIndex = i;
-                break;
+                return customers.get(i);
             }
         }
-        return customerIndex;
+        return null;
     }
  }
