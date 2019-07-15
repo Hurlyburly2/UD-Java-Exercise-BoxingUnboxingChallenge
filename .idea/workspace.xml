@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab079a82-83db-49d0-bc0c-6027ef961ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsimon/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsimon/Branch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsimon/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsimon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsimon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsimon/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsimon/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dsimon/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsimon/Branch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,25 +22,25 @@
         <entry file="file://$PROJECT_DIR$/src/com/dsimon/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="80" column="53" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dsimon/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="78" />
+              <caret line="89" column="41" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dsimon/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dsimon/Branch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -52,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dsimon/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="102">
               <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
@@ -72,6 +68,9 @@
       <find>balance</find>
       <find>exists</find>
       <find>customer already</find>
+      <find>transaction was not</find>
+      <find>findbranch</find>
+      <find>findbra</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -82,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/dsimon/Main.java" />
         <option value="$PROJECT_DIR$/src/com/dsimon/Customer.java" />
-        <option value="$PROJECT_DIR$/src/com/dsimon/Bank.java" />
         <option value="$PROJECT_DIR$/src/com/dsimon/Branch.java" />
+        <option value="$PROJECT_DIR$/src/com/dsimon/Bank.java" />
       </list>
     </option>
   </component>
@@ -177,7 +176,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -203,29 +202,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/dsimon/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="102">
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dsimon/Bank.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dsimon/Branch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="78" />
+        <state relative-caret-position="75">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dsimon/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="80" column="53" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="53" />
+          <caret line="89" column="41" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dsimon/Branch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dsimon/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="-174">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
